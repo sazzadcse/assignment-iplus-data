@@ -1,0 +1,22 @@
+.action-area span {
+  cursor: pointer;
+  margin-top: 6px;
+  display: inline-block;
+}
+
+.error {
+  border: 1px dotted red;
+}
+
+label.error {
+  color: red;
+  font-style: italic;
+}
+
+.btn-disabled,
+.btn-disabled:hover {
+    background-color: #ccc !important;
+    border-color: #ddd !important;
+    color: #fff !important;
+    cursor: not-allowed !important;
+}
